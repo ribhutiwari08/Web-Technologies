@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    display: flex;
+}
+
+.left-sidebar {
+    width: 200px; 
+    background-color: #020c02;
+    color: white;
+    padding-top: 50px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.left-sidebar h3 {
+    margin-top: 0;
+    font-size: 24px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.left-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.left-sidebar li {
+    margin: 30px 0; 
+}
+
+.left-sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.left-sidebar a:hover {
+    color: #4CAF50;
+    background-color: #333; 
+}
+
+
+.left-sidebar a.home-button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4CAF50; 
+}
+
+.left-sidebar a.home-button:hover {
+    color: white;
+    background-color: #333;
+}
+
+.content {
+    margin-left: 220px; 
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #4CAF50;
+    margin: 0 20px;
+    font-size: 20px;
+    width: 300px;
+    background-color: #020c02;
+    height: 250px;
+}
+
+.social-links a:hover {
+    color: #73f6f6;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #4CAF50;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;      
+    left: 0;         
+    right: 0;        
+    background-color: #020c02; 
+    color: white;           
+    text-align: center;     
+    padding: 10px;          
+    margin: 0;              
+    width: 100%;            
+    box-sizing: border-box; 
+}
